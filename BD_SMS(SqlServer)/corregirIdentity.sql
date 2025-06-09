@@ -1,0 +1,5 @@
+DBCC CHECKIDENT ('dbo.USUARIO', RESEED, 6)
+
+select * from dbo.USUARIO
+
+DELETE FROM dbo.USUARIO WHERE IdUsuario = 1004;
