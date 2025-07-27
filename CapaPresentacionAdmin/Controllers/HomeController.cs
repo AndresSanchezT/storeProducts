@@ -13,7 +13,7 @@ namespace CapaPresentacionAdmin.Controllers
 {
 
     //no ingresaran a ninguna vista del controller si no esta autorizado
-    [Authorize]
+   
     public class HomeController : Controller
     {
         public ActionResult Index()
